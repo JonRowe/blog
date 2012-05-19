@@ -1,1 +1,4 @@
 .rvmrc
+.DS_Store
+_site
+.sass-cache
