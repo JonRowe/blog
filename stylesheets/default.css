@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s,
+samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+*:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #222222;
+  background: white; }
+  body h1 {
+    font-size: 1.5em;
+    text-transform: uppercase; }
+    body h1 a:visited, body h1 a {
+      color: #222222;
+      text-decoration: none; }
+  body h1, body h2, body h3 {
+    font-weight: bold; }
+  body .page {
+    display: block;
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -3em;
+    font-size: 1.3em; }
+    body .page article {
+      padding: 1em;
+      width: 80%; }
+      body .page article p {
+        text-align: justify;
+        padding-bottom: 1em; }
+      body .page article h2 {
+        padding-bottom: 1em; }
+    body .page header, body .page section {
+      padding: 1em; }
+    body .page header {
+      float: left;
+      width: 4em;
+      padding: 0 3em;
+      height: 100%; }
+      body .page header h1 {
+        font-size: 4em; }
+      body .page header nav a, body .page header nav a:visited {
+        text-decoration: none;
+        display: block;
+        width: 4em;
+        text-align: center;
+        margin: 1em 0;
+        background: #40b0ff;
+        color: white;
+        font-weight: bold;
+        border-radius: 0.3em; }
+  body a:visited, body a {
+    color: #40b0ff;
+    font-weight: bold; }
+  body footer {
+    display: block;
+    height: 3em;
+    text-align: center; }

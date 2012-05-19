@@ -1,0 +1,61 @@
+@import 'reset'
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700)
+
+$alt: #40B0FF
+$fg:  #222
+$bg:  #FFF
+
+html
+  height: 100%
+body
+  height: 100%
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-weight: 300
+  color: $fg
+  background: $bg
+
+  h1
+    font-size: 1.5em
+    text-transform: uppercase
+    a:visited, a
+      color: $fg
+      text-decoration: none
+  h1, h2, h3
+    font-weight: bold
+
+  .page
+    display: block
+    min-height: 100%
+    height: 100%
+    margin: 0 auto -3em
+    font-size: 1.3em
+
+    @import 'post'
+    header, section
+      padding: 1em
+    header
+      float: left
+      width: 4em
+      padding: 0 3em
+      height: 100%
+      h1
+        font-size: 4em
+      nav a, nav a:visited
+        text-decoration: none
+        display: block
+        width: 4em
+        text-align: center
+        margin: 1em 0
+        background: $alt
+        color: $bg
+        font-weight: bold
+        border-radius: 0.3em
+
+  a:visited, a
+    color: $alt
+    font-weight: bold
+
+  footer
+    display: block
+    height: 3em
+    text-align: center
