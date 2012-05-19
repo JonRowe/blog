@@ -67,6 +67,11 @@ body {
       body .page article p {
         text-align: justify;
         padding-bottom: 1em; }
+      body .page article h1 span, body .page article h2 span, body .page article abbr {
+        font-weight: normal;
+        color: #999999;
+        font-size: 0.8em;
+        text-transform: none; }
       body .page article h2 {
         padding-bottom: 1em; }
     body .page header, body .page section {
