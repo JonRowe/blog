@@ -58,10 +58,11 @@ body {
   body .page {
     display: block;
     min-height: 100%;
-    height: 100%;
-    margin: 0 auto -3em;
+    height: auto;
+    margin: 0 auto -2em;
     font-size: 1.3em; }
     body .page article {
+      margin-left: 10em;
       padding: 1em;
       width: 80%; }
       body .page article p {
@@ -74,6 +75,8 @@ body {
         text-transform: none; }
       body .page article h2 {
         padding-bottom: 1em; }
+      body .page article div.gist {
+        font-size: 0.78em; }
     body .page header, body .page section {
       padding: 1em; }
     body .page header {
