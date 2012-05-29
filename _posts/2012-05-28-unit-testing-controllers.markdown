@@ -44,7 +44,7 @@ Take an overly simplified example (a cliché of blog posts right?).
 </script>
 
 As you can see it's not very exciting, notice though that we are doing
-the setup in the before blog (in this case mocking out a service call
+the setup in the before block (in this case mocking out a service call
 with a set of params), and that in the subject we are just taking an
 initialized controller and calling the eventual method. There is nothing
 stopping you from turning this into an integration test (by not mocking
