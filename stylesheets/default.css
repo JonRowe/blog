@@ -77,6 +77,8 @@ body {
         padding-bottom: 1em; }
       body .page article div.gist {
         font-size: 0.78em; }
+      body .page article .speakerdeck-iframe {
+        margin-bottom: 2em; }
     body .page header, body .page section {
       padding: 1em; }
     body .page header {
