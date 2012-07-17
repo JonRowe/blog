@@ -1,7 +1,7 @@
 ---
 title: Talk @ SRC '12 Fringe - Practical Faster Testing With Rails
 layout: post 
-abstract: 
+abstract: Talk about practical faster testing with rails given by myself at SRC Fringe '12
 ---
 Practical Faster Testing With Rails
 =========================================
@@ -9,21 +9,20 @@ Talk @ Scottish Ruby Conference Fringe 1/7/2012
 -----------------------------------------
 
 At the end of June I was able to attend the fantastic Scottish Ruby
-Conference up in sunny Edinburgh. After a fun packed and informative
-weekend involving copious whiskey and brilliant talks from some well
-educated rubyists you'd have though we would be all worn out come
-sunday.
+Conference up in Edinburgh. After the usual fun packed and informative
+couple of days you'd have though we would be all worn out come sunday.
+Not so it seems and so the SRC Fringe was born.
 
-Not so it seems and so the SRC Fringe was born. Organised by one
-[@ryanstenhouse](http://twitter.com/ryanstenhouse) and taking place
-over a few gentle hours on sunday afternoon. The Fringe event made for
-a nice ending to a exhausting weekend.
+Organised by one [@ryanstenhouse](http://twitter.com/ryanstenhouse) and
+taking place over a few gentle hours on sunday afternoon. The Fringe event
+made for a nice ending to a exhausting weekend.
 
 I was lucky enough to give a talk, it was about Practical Faster Testing
-with Rails and I would love your feedback. You can find it in the usual
-places, [(on Vimeo)]( http://vimeo.com/45474361 )
+with Rails and I would love your feedback.
+
+You can find it in the usual places, [(on Vimeo)]( http://vimeo.com/45474361 )
 [(on Speakerdeck)]( https://speakerdeck.com/u/jonrowe/p/practical-faster-testing-with-rails )
-or for your convenience it is embdedded below.
+or for your convenience it is embedded below.
 
 As usual you can find me on [Twitter]( https://twitter.com/jonrowe)
 
