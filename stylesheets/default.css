@@ -79,6 +79,8 @@ body {
         font-size: 0.78em; }
       body .page article .speakerdeck-iframe {
         margin-bottom: 2em; }
+      body .page article img {
+        max-width: 800px; }
     body .page header, body .page section {
       padding: 1em; }
     body .page header {
