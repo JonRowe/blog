@@ -29,11 +29,11 @@ As usual you can find me on [Twitter]( https://twitter.com/jonrowe)
 Video
 -----
 
-<iframe src="http://player.vimeo.com/video/45474361?byline=0&amp;portrait=0" width="800" height="450" frameborder="0" webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'>
+<iframe src="http://player.vimeo.com/video/45474361?byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true' class='needs-mobile-resize' >
 </iframe>
 
 Slides
 ------
 
-<iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/embed/4ff052bb0b4f3b002200af27?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" width="800" height="600">
+<iframe class="needs-mobile-resize speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/embed/4ff052bb0b4f3b002200af27?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>

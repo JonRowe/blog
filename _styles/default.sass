@@ -8,14 +8,17 @@ $alt: #40B0FF
 $fg:  #222
 $bg:  #FFF
 
+$mobile:  max-width 750px 4
+$desktop: min-width 750px 4
+
 html
   height: 100%
 body
   height: 100%
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif
   font-weight: 300
-  color: $fg
-  background: $bg
+  color:       $fg
+  background:  $bg
 
   h1
     font-size: 1.5em
@@ -23,32 +26,61 @@ body
     a:visited, a
       color: $fg
       text-decoration: none
+  h2
+    font-size: 1em
   h1, h2, h3
     font-weight: bold
+    margin: 0
+
+  @include breakpoint($mobile)
+    .mob-hide
+      display: none !important
+    .page
+      margin: 0 auto -2em
+      min-height: 90%
+
+  @include breakpoint($desktop)
+    .page
+      min-height: 100%
+      margin: 0 auto -3em
 
   .page
     display: block
-    min-height: 100%
-    height: auto
-    margin: 0 auto -2em
+    height:     auto
     font-size: 1.3em
 
     @import 'post'
+    article
+      @include breakpoint($mobile)
+        clear: both
     header, section
       padding: 1em
     header
-      float: left
-      width: 4em
-      padding: 0 3em
+      @include breakpoint($mobile)
+        float: none
+        margin: 0 auto
+        width: 100%
+        max-width: 22em
+        h1
+          font-size: 2em
+          text-align: center
+        nav a, nav a:visited
+          float: left
+          margin: 0.1em 0.5em
+      @include breakpoint($desktop)
+        float: left
+        width: 4em
+        h1
+          font-size: 4em
+        nav a, nav a:visited
+          margin: 1em 0
+      padding: 1em 3em
       height: 100%
-      h1
-        font-size: 4em
       nav a, nav a:visited
         text-decoration: none
         display: block
         width: 4em
         text-align: center
-        margin: 1em 0
         background: $alt
         color: $bg
         font-weight: bold
@@ -60,6 +92,7 @@ body
 
   footer
     display: block
-    height: 3em
     text-align: center
     clear:both
+    p
+      margin: 0

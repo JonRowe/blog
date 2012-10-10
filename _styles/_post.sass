@@ -1,4 +1,7 @@
 article
+  @include breakpoint($mobile)
+    margin: 0
+    width: 100%
   margin-left: 10em
   padding: 1em
   width: 80%
@@ -21,3 +24,15 @@ article
     margin-bottom: 2em
   img
     max-width: 800px
+
+  @include breakpoint($desktop)
+    .needs-mobile-resize
+      width: 800px !important
+      height: 400px
+    .needs-mobile-resize.speakerdeck-iframe
+      height: 600px
+  @include breakpoint($mobile)
+    .speakerdeck-iframe
+    img, .needs-mobile-resize
+      width: 100% !important
+      height: 500px
