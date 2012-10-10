@@ -389,7 +389,7 @@ body {
       @media screen and (max-width: 750px) {
         body .page article img, body .page article .needs-mobile-resize {
           width: 100% !important;
-          height: 500px; } }
+          height: 300px; } }
     @media screen and (max-width: 750px) {
       body .page article {
         clear: both; } }
