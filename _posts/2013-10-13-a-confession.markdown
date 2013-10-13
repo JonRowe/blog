@@ -21,9 +21,9 @@ which have developed an almost unhealthy obsession with alcohol fueled parties
 along side, part of the hacker, startup, brogrammer ethos we seem to have
 accidentally groomed to be a part of our community.
 
-So... a confession.
+##So... a confession.
 
-I'm a privileged programmer.
+**I'm a privileged programmer.**
 
 I'm white, male, had the good fortune to attend a decent university and now reap
 the benefits. I have a decent income and generally enjoy what I get to do. That's
