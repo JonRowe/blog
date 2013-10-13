@@ -12,16 +12,18 @@ At the time of writing, there is a wildfire in the Ruby community; another
 high profile drama has been revealed and once again threatens to tear us apart.
 The "TL;DR;" is that a prominent previously respected member of the community
 allegedly committed an atrocity against a friend of theirs, a co-worker no less.
+
 Once again this had drawn out the questions of sexism and privilege within our
 community, much to the hatred of those who benefit from it. As usual we see
 those who are blameless attract so much hate, and the perpetrator get away with
 oh so much.
+
 Again our culture is drawn into question, particularly that of our conferences
 which have developed an almost unhealthy obsession with alcohol fueled parties
 along side, part of the hacker, startup, brogrammer ethos we seem to have
 accidentally groomed to be a part of our community.
 
-##So... a confession.
+#So... a confession.
 
 **I'm a privileged programmer.**
 
