@@ -1,0 +1,74 @@
+---
+title: Be cool
+layout: post
+abstract: On working with open source projects and encountering issues.
+---
+Be cool
+=========================================
+18/11/2013
+-----------------------------------------
+
+**Full disclosure**
+I am one of the core team for the popular RSpec testing
+tool. I feel that I and the rest of the team, Myron Marston, Sam Phippen,
+Xavier Shay, Bradley Schaefer and David Chelimsky are pretty approachable
+when it comes to sorting issues and fixing bugs. We can be found on Github,
+Twitter, IRC, by mailing list or even via direct email.
+
+Today I came across an article <sub>[<a href="#1">1</a>]</sub> written by a
+fellow Ruby developer, in it the author has an issue with RSpec, not in itself
+unusual, but what irked me was the attitude of the developer. I'm no stranger
+to listening to people who are annoyed or frustrated with something that
+doesn't work, or perhaps just doesn't function how they would like. I try my
+best to explain, to discuss or engage and help people, so when someone just
+straight away turns to venting on a public platform with no interest in
+actually solving their problem it rubs me the wrong way. As far as I know
+there has never been a report of this issue, neither via Github or other means
+of contact, so the developer has suffered from this issue enough to write a
+ranting blog post, but has never put the modest amount of effort required to
+open an issue and help us fix this?
+
+Naturally wanting to help I tried to replicate<sub>[<a href="#2">2</a>]</sub>
+the symptoms of our troubled friend but using the samples shown on the post
+hasn't resulted in the same set of failures in either our current release
+version `2.14` and pre-release `3.0.0.beta1`. I've attempted to reach out to
+the developer (via twitter), so we'll see how that goes. If anyone else can
+replicate it I'd love to here from you, but in the mean time...
+
+# An open plea...
+
+When you experience an issue with an open source project, don't just ignore it;
+or rage quit and rant on your blog, instead please remember that behind that
+project are people. People who probably work hard on that project and
+are not necessarily paid for their contributions; people who are probably
+willing to help you, or at least will be grateful for your help in reporting the
+problem so they can fix it for others.
+
+So please report issues, preferably with the minimal amount of code required to
+reproduce the issue and with the minimal amount of dependencies. Every piece
+of complexity adds more stones to turn to uncover the source of the problem,
+but generally speaking if you can produce an executable test case for an
+issue people will work to fix it. As soon as you can see a problem happening
+it's easier to fix.
+
+Oh and for the record I have no problem with people choosing to use other tools
+that better suit their needs, and frequently get to 'light heartedly' debate
+this with Ruby developers at the local Sydney Ruby meetups, but I do resent it
+when people do so with brash language and hating on other peoples work.
+
+Be cool man.
+
+\#1
+<a id="1" title="http://ilyabylich.svbtle.com/rspec-is-not-so-cool"
+           href="http://ilyabylich.svbtle.com/rspec-is-not-so-cool" >
+http://ilyabylich.svbtle.com/rspec-is-not-so-cool
+</a>
+<br />
+\#2
+<a id="2" title="https://gist.github.com/JonRowe/69e6371ac83165d1bbe1"
+           href="https://gist.github.com/JonRowe/69e6371ac83165d1bbe1" >
+https://gist.github.com/JonRowe/69e6371ac83165d1bbe1
+</a>
+
+<br />
+
