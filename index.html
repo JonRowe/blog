@@ -4,15 +4,17 @@ title: Things
 ---
 
 {% for post in site.posts %}
-  <article>
-    <h1>
-      <a href="{{post.url}}">{{post.title}}</a>
-    </h1>
-    <h2>
-      {{post.date | date: "%d %m %y"}} <span>by Jon Rowe</span>
-    </h2>
-    <abbr>
-      {{ post.abstract }}
-    </abbr>
-  </article>
+  {% if post.hidden != true %}
+    <article>
+      <h1>
+        <a href="{{post.url}}">{{post.title}}</a>
+      </h1>
+      <h2>
+        {{post.date | date: "%d %m %y"}} <span>by Jon Rowe</span>
+      </h2>
+      <abbr>
+        {{ post.abstract }}
+      </abbr>
+    </article>
+  {% endif %}
 {% endfor %}
