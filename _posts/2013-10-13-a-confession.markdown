@@ -2,6 +2,7 @@
 title: A Confession
 layout: post
 abstract: 
+hidden: true
 ---
 A Confession
 =========================================
