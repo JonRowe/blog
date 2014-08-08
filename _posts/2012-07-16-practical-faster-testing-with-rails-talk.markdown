@@ -5,6 +5,7 @@ abstract: Talk about practical faster testing with rails given by myself at SRC 
 ---
 Practical Faster Testing With Rails
 =========================================
+
 Talk @ Scottish Ruby Conference Fringe 1/7/2012
 -----------------------------------------
 

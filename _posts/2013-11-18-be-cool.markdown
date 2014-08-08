@@ -5,6 +5,7 @@ abstract: On working with open source projects and encountering issues.
 ---
 Be cool
 =========================================
+
 18/11/2013
 -----------------------------------------
 

@@ -5,6 +5,7 @@ abstract: Integration testing controllers is slow, why not unit test them?
 ---
 Unit Tested Controllers in Ruby On Rails
 =========================================
+
 Fast tests good, slow tests bad.
 -----------------------------------------
 

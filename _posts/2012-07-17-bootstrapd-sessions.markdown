@@ -3,8 +3,10 @@ title: Bootstrapd '12 Sessions
 layout: post
 abstract: Notes taken from Bootstrappd sessions in 2012
 ---
+
 Bootstrapd '12 Sessions
 =============================================
+
 Notes taken from Bootstrapd sessions in 2012
 ---------------------------------------------
 
